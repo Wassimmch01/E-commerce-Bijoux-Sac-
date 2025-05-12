@@ -6,7 +6,7 @@ const Shop = () => {
   return (
     <div>
         <Layout>
-            <div className="container">
+            <div className="container product-detail">
                 <nav aria-label='breadcrumb'>
                     <ol className='breadcrumb py-5'>
                         <li className="breadcrumb-item"><a href="/">Home</a></li>

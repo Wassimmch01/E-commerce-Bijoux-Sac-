@@ -96,6 +96,11 @@ ul{
         }
     }
 }
+.nav-tabs{
+    .nav-link{
+        color: $primary-black;
+    }
+}
 
 header{
     .nav-link{
@@ -147,6 +152,20 @@ header{
             span{
                 color: rgba($primary-black, 0.8);
             }
+        }
+    }
+}
+
+.product-detail{
+    .mySwiper{
+        .swiper-slide{
+            height: auto !important;
+        }
+    }
+    .price{
+        font-weight: bold;
+        span{
+            color: rgba($primary-black,0.2);
         }
     }
 }
