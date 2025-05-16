@@ -3,6 +3,7 @@ import Layout from './common/Layout'
 import { Link } from 'react-router-dom'
 import ProductImg from '../assets/images/Mens/eight.jpg'
 
+
 const Cart = () => {
   return (
     <Layout>
@@ -60,7 +61,7 @@ const Cart = () => {
                         <div><strong>Grand Total</strong></div>
                         <div>20.00 DA</div>
                     </div>
-                    <div className="d-flex justify-content-end">
+                    <div  className="d-flex justify-content-end">
                         <button className="btn btn-primary">Proceed To Checkout</button>
                     </div>
                 </div>

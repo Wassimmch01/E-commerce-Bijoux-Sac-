@@ -15,7 +15,7 @@ import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 
 const Product = () => {
-    const [rating , setRating] = useState(4)
+    const [rating , ] = useState(4)
     const [thumbsSwiper, setThumbsSwiper] = useState(null);
   return (
     <div>
